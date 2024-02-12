@@ -13,7 +13,7 @@ public class BottleOfWater extends Product {
     }
 
     @Override
-    public double getTemp() {
+    public int getTemp() {
         return 0;
     }
 

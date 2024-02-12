@@ -35,5 +35,5 @@ abstract class Product {
 
     public abstract double getVolume();
 
-    public abstract double getTemp();
+    public abstract int getTemp();
 }

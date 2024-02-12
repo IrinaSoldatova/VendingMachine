@@ -18,7 +18,7 @@ public class VendingMachineBottleOfWater implements VendingMachine {
     }
 
     @Override
-    public Product getProduct(String name, double volume, double temp) {
+    public Product getProduct(String name, double volume, int temp) {
         for (Product product : productList) {
             if (product.getName().equals(name) && product.getVolume() == volume && product.getTemp() == temp)
                 return product;

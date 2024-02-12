@@ -1,18 +1,18 @@
 package org.example.VendingMachine;
 
 public class HotDrink extends BottleOfWater {
-    private double temp;
+    private int temp;
 
-    public HotDrink(String name, int cost, double volume, double temp) {
+    public HotDrink(String name, int cost, double volume, int temp) {
         super(name, cost, volume);
         this.temp = temp;
     }
 
-    public double getTemp() {
+    public int getTemp() {
         return temp;
     }
 
-    public void setTemp(double temp) {
+    public void setTemp(int temp) {
         this.temp = temp;
     }
 
