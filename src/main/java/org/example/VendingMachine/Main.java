@@ -3,10 +3,10 @@ package org.example.VendingMachine;
 public class Main {
     public static void main(String[] args) {
         VendingMachineBottleOfWater machineBOW = new VendingMachineBottleOfWater();
-        machineBOW.addBottleOfWater(new BottleOfWater("Water", 110, 5));
-        machineBOW.addBottleOfWater(new BottleOfWater("Coca-cola", 90, 0.5));
-        machineBOW.addBottleOfWater(new BottleOfWater("Coca-cola", 150, 2));
-        machineBOW.addBottleOfWater(new BottleOfWater("Water", 25, 1));
+        machineBOW.addBottleOfWater(new BottleOfWater("Water", 150, 5));
+        machineBOW.addBottleOfWater(new BottleOfWater("Water", 20, 0.5));
+        machineBOW.addBottleOfWater(new BottleOfWater("Water", 90, 2));
+        machineBOW.addBottleOfWater(new BottleOfWater("Water", 60, 1));
         VendingMachineHotDrink machineHD = new VendingMachineHotDrink();
         machineHD.addHotDrink(new HotDrink("Coffee", 300, 0.35, 92));
         machineHD.addHotDrink(new HotDrink("Coffee", 170, 0.15, 92));
